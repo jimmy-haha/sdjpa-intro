@@ -1,0 +1,4 @@
+Flyway itself, as we were just looking at the documentation that's got a lot of capabilities with its naming
+conventions.
+1. 你在resources下面创建的schema.sql, hibernate会自动去执行
+2. flyway, however, 会去执行resources/db/migration/V1__的文件.
